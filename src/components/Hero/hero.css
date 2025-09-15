@@ -1,0 +1,38 @@
+.hero {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.hero-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+  padding: 1rem;
+}
+
+.hero-text {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  width: 50%;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-family: "Fairplay";
+  font-weight: bold;
+  font-size: 86px;
+  color: white;
+  text-align: center;
+}
+
+.hero-text svg{
+  text-align: center;
+  padding-top: 64px;
+}
+
+.hero-text path {
+  cursor: pointer;
+}
